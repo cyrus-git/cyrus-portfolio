@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-import { faSignature } from '@fortawesome/free-solid-svg-icons'
+import { faHandPeace } from '@fortawesome/fontawesome-free-regular';
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <FontAwesomeIcon icon={faSignature} transform="grow-18" />
+            <FontAwesomeIcon icon={faHandPeace} transform="grow-18" />
         </div>
         <div className="content">
             <div className="inner">
