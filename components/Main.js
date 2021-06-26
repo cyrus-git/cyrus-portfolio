@@ -57,16 +57,13 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="#">
+            <li><a href="https://twitter.com/cyrus_twi" target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
             </a></li>
-            <li><a href="#">
-              <FontAwesomeIcon icon={faFacebook} />
-            </a></li>
-            <li><a href="#">
+            {/* <li><a href="#">
               <FontAwesomeIcon icon={faInstagram} />
-            </a></li>
-            <li><a href="#">
+            </a></li> */}
+            <li><a href="https://github.com/cyrus-git" target="_blank">
               <FontAwesomeIcon icon={faGithub} />
             </a></li>
           </ul>
